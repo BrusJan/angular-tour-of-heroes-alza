@@ -1,10 +1,13 @@
+Below is the original readme from the forked repo.
+I made this project for Alza interview task. I have changed the looks of the application and project structure.
+
 # Getting Started
 
 Super simple Angular app with 1 module and 2 routes. This is a minor variation on the Tour of Heroes I wrote for the [official docs](https://angular.io/tutorial).
 
 ## Get the Code
 ```
-git clone https://github.com/johnpapa/angular-tour-of-heroes.git toh
+git clone https://https://github.com/BrusJan/angular-tour-of-heroes-alza.git toh
 cd toh
 npm i
 ```
