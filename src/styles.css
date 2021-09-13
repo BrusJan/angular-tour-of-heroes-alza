@@ -1,0 +1,60 @@
+/* You can add global styles to this file, and also import other style files */
+
+h2 {
+    color: #444;
+    margin: 1em 0 0;
+}
+
+body {
+    margin: 2em;
+}
+
+body, input[text], button {
+    color: #888;
+}
+
+button {
+    padding: 0.2em;
+    font-size: 14px
+}
+
+* {
+    font-family: 'Nunito', sans-serif;
+}
+
+.content {
+    background: rgb(245, 245, 245);
+    border-radius: 1em;
+    padding: 1em;
+}
+button {
+    padding: .5em .75em;
+    text-decoration: none;
+    margin: 1em 1em .3em 0;
+    display: inline-block;
+    background-color: rgb(196, 68, 36);
+    border-radius: 4px;
+    color: white;
+    border: 2px solid rgb(196, 68, 36);
+    transition: all 0.3s ease;
+  }
+  .outline {
+    color: rgb(196, 81, 36);
+    background-color: rgb(245,245,245);
+    border: 2px solid rgb(196, 68, 36);
+  }
+  
+  button:hover {
+    background-color: rgb(236, 128, 56);
+    border: 2px solid rgb(236, 128, 56);
+  }
+  .outline:hover {
+    color: rgb(236, 128, 56);
+    background-color: white;
+    border: 2px solid rgb(236, 128, 56);
+  }
+  
+  button:disabled {
+    color: #d3d3d3;
+    background-color: rgb(150, 116, 107);
+  }
